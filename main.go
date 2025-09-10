@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"mylearning/myutil"
 )
+// import custom_variables
 
 func main() {
 	fmt.Println("Learn go lannguage")
@@ -11,6 +12,7 @@ func main() {
 	fmt.Println("================================")
 	// calling packages
 	myutil.PrintMessage("Hello World")
+	custom_variables()
 }
 
 func main1() {
